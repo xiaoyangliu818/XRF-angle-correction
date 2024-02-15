@@ -8,3 +8,7 @@ Construct h5 file for XRF spectrum fitting and quantification
 1. Theoretic_cal_20231119.py: script for calculation
 2. construct_h5_plot_check.py: construct h5 file that can be analyzed by XRF-MAPS and UprobeX
 3.image_analysis.py: histogram of selected region, calculated cumulative concentration probability
+
+#----------------------------------------------------------------------------------------------------
+Cal_ice_thick.py
+Inavoidable ice layer on the cryogenic sample will affect the XRF intensity of low-z element such as P, S and Ca etc. It is important to estimate the ice thickness. We come up an idea to use iterative method. Now the script is an inital test and need more motification. 
